@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invoice</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Invoice</h1>
+      <p>Note: This page has been enhanced for printing. Click the "Print" button at the bottom of the invoice to test.</p>
+    </header>
+
+    <section class="invoice-info">
+      <div class="row">
+        <div class="col">
+          <strong>From:</strong><br>
+          AdminLTE, Inc.<br>
+          195 Folsom Ave, Suite 500<br>
+          San Francisco, CA 94107<br>
+          Phone: (123) 456-7890<br>
+          Email: info@almasaeedstudio.com
+        </div>
+        <div class="col">
+          <strong>To:</strong><br>
+          John Doe<br>
+          795 Folsom Ave, Suite 500<br>
+          San Francisco, CA 94107<br>
+          Phone: (555) 539-1037<br>
+          Email: john.doe@example.com
+        </div>
+        <div class="col">
+          <strong>Invoice #</strong>: 47358J<br>
+          <strong>Order Date</strong>: 2/10/2014<br>
+          <strong>Payment Due</strong>: 2/22/2014<br>
+          <strong>Account</strong>: 966-34567
+        </div>
+      </div>
+    </section>
+
+    <section class="invoice-items">
+      <table>
+        <thead>
+          <tr>
+            <th>Qty</th>
+            <th>Product</th>
+            <th>Serial #</th>
+            <th>Description</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Call of Duty</td>
+            <td>455-981-221</td>
+            <td>E-sport besport t-shirt</td>
+            <td>$64.50</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Need for Speed V</td>
+            <td>247-925-726</td>
+            <td>Wes Anderson umami biodiesel</td>
+            <td>$500.00</td>
+          </tr>
+          </tbody>
+      </table>
+    </section>
+
+    <section class="invoice-totals">
+      <div class="row">
+        <div class="col">
+          <strong>Payment Methods:</strong><br>
+          <img src="visa.png" alt="Visa">
+          <img src="mastercard.png" alt="Mastercard">
+          <img src="paypal.png" alt="PayPal">
+          <p>This billing page accepts VISA, MasterCard, and PayPal. Please note that we do not accept cash, checks, or money orders.</p>
+        </div>
+        <div class="col">
+          <strong>Amount Due 2/22/2014</strong><br>
+          Subtotal: $500.00<br>
+          Tax (9.3%): $10.34<br>
+          Shipping: $10.00<br>
+          <strong>Total:</strong> $520.34
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <button>Generate PDF</button>
+      <button>Submit Payment</button>
+    </footer>
+  </div>
+</body>
+</html>
